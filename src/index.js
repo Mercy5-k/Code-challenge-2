@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded",() => {
    const nameInput = document.getElementById ("guest-name"); 
    const guestCategory = document.getElementById("guest-category");
 
+   const toggle = document.createElement("button");
+toggle.textContent = "Toggle Dark Mode";
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+document.body.prepend(toggle);
    form.addEventListener ("submit", function(event){
     event.preventDefault();
 
@@ -22,6 +29,7 @@ document.addEventListener("DOMContentLoaded",() => {
 
     const guestInfo = document.createElement("span");
     guestInfo.textContent = `${name} (${category}) - Added at ${timestamp}`;
+
 
     const rsvpButton = document.createElement("button");
     rsvpButton.textContent = "RSVP: Not Attending";
