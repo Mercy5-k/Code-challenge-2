@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2rem;
+    background: white;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+    background: white;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    list-style: none;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.category {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.attending{
+    color: darkgreen;
+}
+
+.not-attending {
+    color: red;
+}
+
+.category-Friend {
+   background-color: skyblue; 
+}
+
+.category-Family {
+    background-color: limegreen;
+}
+
+.category-Colleague {
+    background-color: darkorange;
+}
+
+button {
+    margin-left: 0.5rem;
+}
