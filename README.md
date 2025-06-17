@@ -141,7 +141,7 @@ It’s projects like this that remind me why I enjoy coding — the immediate, v
 
 ## Thanks for Checking It Out!
 
-If you’re a student or self-learner like me, I hope this inspires you to build something from scratch, no matter how small. Feel free to fork it, remix it, or even just study how it's structured. Every project like this is a step forward.
+If you’re a student  like me or self-learner, I hope this inspires you to build something from scratch, no matter how small. Feel free to fork it, remix it, or even just study how it's structured. Every project like this is a step forward.
 
 
 
