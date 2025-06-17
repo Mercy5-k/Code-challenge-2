@@ -7,18 +7,28 @@
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<img src="./images/event-background.jpg" alt="Event Background" class="header-image" />
+
     <h1>Event Guest List Manager</h1>
+     <div id="clock"></div>
+
     <form id="guest-form">
         <input type="text" id="guest-name" placeholder="Enter guest name" required>
         <select id="guest-category">
-            <option value="Friend">Friend</option>
-            <option value="Family">Family</option>
-            <option value="Colleague">Colleague</option>
+            <option value="Friend">👫 Friend</option>
+      <option value="Family">👨‍👩‍👧‍👦 Family</option>
+      <option value="Colleague">💼 Colleague</option>
         </select>
         <button type="submit">Add Guest</button>
     </form>
 
+    <div id="counter-container">
+    <label>Guest Count: <span id="guest-count">0</span>/10</label>
+    <progress id="progress-bar" value="0" max="10"></progress>
+  </div>
+
     <ul id="guest-list"></ul>
+    <div id="toast"></div>
 
     <script src="./src/index.js"></script>
 </body>
