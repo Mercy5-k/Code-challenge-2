@@ -1,4 +1,4 @@
-![Screenshot](https://github.com/user-attachments/assets/3b3eec4b-78e5-4b0c-a772-762c77b06a8f)# Code Challenge 2
+# Code Challenge 2
 
 Hello!Welcome to Code Challenge 2 — a little project born out of my love for building useful tools with just the basics.This challenge was about making a functional, user-friendly guest list manager for events. Nothing fancy or over-engineered, just something real that you could open, use, and learn from.It started as a small code challenge — a way to sharpen my core front-end skills — but along the way, it grew some personality and little quirks that make it more than just a list.The goal was simple: build a dynamic guest list manager using nothing but HTML, CSS, and JavaScript.
 
@@ -6,7 +6,7 @@ Hello!Welcome to Code Challenge 2 — a little project born out of my love for b
 
 Here’s what it looks like in action:
 
-![Guest List Manager Screenshot](![Uploading Screenshot.png…])
+![Guest List Manager Screenshot]![Screenshot](https://github.com/user-attachments/assets/3b3eec4b-78e5-4b0c-a772-762c77b06a8f)
 
 
 ## What It Does
